@@ -1,0 +1,69 @@
+ 主
+1.git init 
+2.添加文件
+3.git add ./
+4.git commit -m "备注"
+5.git remote add 别名 地址
+6. git push 别名 master 本地推到远程
+7.git push  推内容
+8. 分支
+git checkout -b 分支名（创建本地分支名）
+git push 分支名/别名（分支推到远程）
+git push 分支名/别名
+当master代码改动了，需要更新开发分支（dev）上的代码
+git checkout master 
+git pull 
+git checkout dev
+git merge master 
+git push -u origin dev
+git branch -D 分支名
+rm 文件名 删除文件
+mv 源文件 重命名文件
+
+辅
+ git clone 地址
+修改
+git push 更新
+更新分支
+首次 git fetch origin
+git checkout --track origin/分支名
+git push 更新
+开发分支（dev）上的代码达到上线的标准后，要合并到 master 分支
+git checkout dev
+git pull
+git checkout master
+git merge dev
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+确保本地分支已经跟踪了远程跟踪分支
+git branch -u 分支别名/master
+拉取数据 : git pull
+上传数据: git push
+1. 当克隆的时候 会自动生成一个master本地分支(已经跟踪了对应的远程跟踪分支)
+2. 在新建其他分支时 可以指定想要跟踪的远程跟踪分支
+            git checkout -b 本地分支名 远程跟踪分支名
+            git checkout --track  远程跟踪分支名 
+3. 将一个已经存在的本地分支 改成 一个跟踪分支   
+            git branch -u 远程跟踪分支名
+git remote 别名 仓库地址(https)
+ git clone  仓库地址 (在本地生成.git文件 默认为远程仓库配了别名 orgin)
+只有在克隆的时候 本地分支master 和 远程跟踪分支别名/master 是有同步关系的
+git add 
+git commit 
+git push  别名 分支 (输入用户名 密码;推完之后会附带生成远程跟踪分支) 
+git fetch 别名 (将修改同步到远程跟踪分支上)
+git merge 远程跟踪分支

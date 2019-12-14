@@ -1,0 +1,17 @@
+公司软件：ftp://172.16.0.100
+公司服务器网站：172.16.10.200:8000
+数据库2012 装有默认实例 选择windows认证和密码 ：Re1010$
+svn地址：http://172.16.0.100:8087/svn/WeldingPlatform
+idea 验证：http://172.16.0.100:1017
+can i use
+奇舞周刊
+17素材网
+掘金
+segmentfault
+插件
+FeHelper
+Window Resizer
+FireShot
+JavaScript Errors Notifier
+JSON-handle
+Pesticide
