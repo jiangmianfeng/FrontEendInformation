@@ -34,6 +34,8 @@ git pull
 git checkout master
 git merge dev
 git push -u origin master
+分支推到远程
+git push origin dev
 
 
 
