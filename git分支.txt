@@ -1,0 +1,12 @@
+git创建分支并切换到当前新创建的分支上
+git checkout -b dev
+开发完成后
+git push origin dev
+
+此时就将本地分支推送到远程相应的分支上了
+记得推到远端之前先拉取最新代码
+git pull
+删除远程分支
+git push origin --delete dev
+删除本地分支
+git branch -d dev
