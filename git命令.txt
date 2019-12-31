@@ -11,9 +11,9 @@ git checkout -b 分支名（创建本地分支名）
 git push 别名 分支名（分支推到远程）
 git push 分支名 别名	(更新内容)
 当master代码改动了，需要更新开发分支（dev）上的代码
-git checkout -b master 
+git checkout master 
 git pull 
-git checkout -b dev
+git checkout dev
 git merge master 
 git push -u origin dev
 git branch -D 分支名
